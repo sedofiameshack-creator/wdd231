@@ -1,0 +1,301 @@
+/* ============================================
+   WDD231 Course Home - Larger Screen Styles
+   Media Query: 768px and up (Tablet/Desktop)
+   ============================================ */
+
+@media (min-width: 768px) {
+    /* ============================================
+       HEADER & NAVIGATION - DESKTOP
+       ============================================ */
+
+    .menu-toggle {
+        display: none;
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    nav {
+        background-color: var(--secondary-color);
+        max-height: none;
+        overflow: visible;
+    }
+
+    nav.active {
+        max-height: none;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .nav-links a {
+        border-bottom: none;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 0.75rem 1.5rem;
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-links li:last-child a {
+        border-right: none;
+    }
+
+    .nav-links a:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    /* ============================================
+       MAIN CONTENT - DESKTOP
+       ============================================ */
+
+    main {
+        padding: 2rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    /* About Me Section - Side by Side */
+    .about-container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .about-text {
+        flex: 1;
+        font-size: 1rem;
+    }
+
+    .student-photo {
+        flex: 0 0 300px;
+        text-align: center;
+    }
+
+    .student-photo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ============================================
+       COURSES - DESKTOP
+       ============================================ */
+
+    .course-filters {
+        gap: 1rem;
+        flex-wrap: nowrap;
+    }
+
+    .filter-btn {
+        flex: 1;
+    }
+
+    /* 2-Column Grid for Medium Screens */
+    .courses-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .course-card {
+        padding: 1.5rem;
+    }
+
+    .course-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .course-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* ============================================
+       FOOTER - DESKTOP
+       ============================================ */
+
+    footer {
+        padding: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        gap: 2rem;
+    }
+
+    .social-links {
+        justify-content: flex-start;
+        order: 1;
+    }
+
+    .footer-info {
+        flex: 1;
+        order: 2;
+        text-align: center;
+    }
+
+    .last-modified {
+        order: 3;
+        text-align: right;
+    }
+}
+
+/* ============================================
+   LARGE DESKTOP: 1000px and up
+   ============================================ */
+
+@media (min-width: 1000px) {
+    header {
+        padding: 1.5rem;
+    }
+
+    main {
+        padding: 2.5rem;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .about-me h2,
+    .courses h2 {
+        font-size: 2rem;
+    }
+
+    /* 3-Column Grid for Large Screens */
+    .courses-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .course-card {
+        padding: 1.75rem;
+    }
+
+    .course-filters {
+        margin-bottom: 2.5rem;
+    }
+
+    .filter-btn {
+        padding: 0.85rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .credits-info {
+        padding: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .nav-links a {
+        padding: 0.75rem 2rem;
+    }
+}
+
+/* ============================================
+   ULTRA-WIDE: 1200px and up
+   ============================================ */
+
+@media (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* ============================================
+   HIGH RESOLUTION DISPLAYS
+   ============================================ */
+
+@media (min-width: 1600px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .about-me h2,
+    .courses h2 {
+        font-size: 2.25rem;
+    }
+
+    .student-photo {
+        flex: 0 0 350px;
+    }
+
+    .courses-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+    header,
+    nav,
+    .menu-toggle,
+    .course-filters,
+    footer {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    .course-card {
+        page-break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY: Reduced Motion
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ============================================
+   DARK MODE SUPPORT (Optional)
+   ============================================ */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --light-bg: #2a2a2a;
+        --dark-text: #e0e0e0;
+        --border-color: #444444;
+        --white: #1a1a1a;
+    }
+
+    .course-card {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .course-card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    }
+}
