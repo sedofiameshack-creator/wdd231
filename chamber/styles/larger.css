@@ -20,7 +20,7 @@
         height: 60px;
     }
 
-    .header-text h1 {
+    .header-text .site-title {
         font-size: 1.5rem;
     }
 
@@ -125,7 +125,7 @@
         height: 70px;
     }
 
-    .header-text h1 {
+    .header-text .site-title {
         font-size: 1.75rem;
     }
 
@@ -134,7 +134,7 @@
         padding: var(--spacing-xl);
     }
 
-    .directory-section h2 {
+    .directory-section h1 {
         font-size: 2rem;
         margin-bottom: var(--spacing-xl);
     }
@@ -222,7 +222,7 @@
         height: 80px;
     }
 
-    .header-text h1 {
+    .header-text .site-title {
         font-size: 2rem;
     }
 
@@ -269,7 +269,7 @@
         width: 100%;
     }
     
-    .directory-section h2 {
+    .directory-section h1 {
         font-size: 2rem;
         margin-bottom: var(--spacing-xl);
     }
@@ -327,7 +327,7 @@
         font-size: 2rem;
     }
 
-    .directory-section h2 {
+    .directory-section h1 {
         font-size: 2.25rem;
     }
 
@@ -359,7 +359,7 @@
         padding: var(--spacing-sm) var(--spacing-md);
     }
 
-    .header-text h1 {
+    .header-text .site-title {
         font-size: 1.25rem;
     }
 
