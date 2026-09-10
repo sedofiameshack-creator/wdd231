@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "ORBITFLEET TRANSPORT",
+        "address": "Togbega Street, Hohoe",
+        "phone": "+233 (0) 302-111-222",
+        "website": "https://orbitfleettransport.com",
+        "image": "orbit.jpeg",
+        "membershipLevel": 3,
+        "tagLine": "Passion for Safety",
+        "email": "contact@orbitfleettransport.com",
+        "description": "Leading provider of reliable transport and logistics solutions"
+    },
+    {
+        "id": 2,
+        "name": "Awak Company Limited",
+        "address": "Ho, Volta Region",
+        "phone": "+233 (0) 558-007-417",
+        "website": "https://awakcompany.com.gh",
+        "image": "awak.jpeg",
+        "membershipLevel": 2,
+        "tagLine": "Industrial Real Estate",
+        "email": "info@awakcompany.com.gh",
+        "description": "Professional industrial real estate agency services"
+    },
+    {
+        "id": 3,
+        "name": "Volta Cubita Cafe",
+        "address": "Barracks Road, Ho",
+        "phone": "+233 (0) 248-811-354",
+        "website": "https://voltacubitacafe.com",
+        "image": "cubita.jpeg",
+        "membershipLevel": 1,
+        "tagLine": "Quality Coffee & Comfort",
+        "email": "hello@voltacubitacafe.com",
+        "description": "Premium cafe serving quality beverages and light meals"
+    },
+    {
+        "id": 4,
+        "name": "Electromart Ghana",
+        "address": "JF5F+23Q MTN, Ho",
+        "phone": "+233 (0) 556-760-170",
+        "website": "https://electromart.com.gh",
+        "image": "electromart.jpeg",
+        "membershipLevel": 2,
+        "tagLine": "Your Tech Solutions",
+        "email": "sales@electromart.com.gh",
+        "description": "Electronics and technology retail solutions"
+    },
+    {
+        "id": 5,
+        "name": "Fit Pharmacy Ltd",
+        "address": "Barracks Road, Ho",
+        "phone": "+233 (0) 543-841-525",
+        "website": "https://fitpharmacy.com.gh",
+        "image": "fit.png",
+        "membershipLevel": 2,
+        "tagLine": "Your Health Matters",
+        "email": "info@fitpharmacy.com.gh",
+        "description": "24-hour pharmacy with quality healthcare products"
+    },
+    {
+        "id": 6,
+        "name": "Melcom Ghana",
+        "address": "Stadium Road, Ho",
+        "phone": "+233 (0) 561-112-777",
+        "website": "https://melcom.com",
+        "image": "melcom.jpeg",
+        "membershipLevel": 3,
+        "tagLine": "Where Ghana Shops",
+        "email": "support@melcom.com",
+        "description": "Leading retail department store with diverse product range"
+    },
+    {
+        "id": 7,
+        "name": "Neil Marrow Construction",
+        "address": "Barracks Road, Ho",
+        "phone": "+233 (0) 247-883-837",
+        "website": "https://neilmarrowconstruction.com",
+        "image": "neil.png",
+        "membershipLevel": 2,
+        "tagLine": "Building Excellence",
+        "email": "info@neilmarrowconstruction.com",
+        "description": "Professional construction and building services"
+    },
+    {
+        "id": 8,
+        "name": "Shineans Limited Company",
+        "address": "AHADO, Hohoe",
+        "phone": "+233 (0) 541-287-845",
+        "website": "https://shineansconstruction.com",
+        "image": "shinean.jpg",
+        "membershipLevel": 1,
+        "tagLine": "Construction Services",
+        "email": "shineanslem84@gmail.com",
+        "description": "Quality construction and project management services"
+    },
+    {
+        "id": 9,
+        "name": "Witty Innovations Consult",
+        "address": "Attachie Street, Ho-Denu Road, Ho",
+        "phone": "+233 (0) 597-385-751",
+        "website": "https://wittyinnovations.com.gh",
+        "image": "witty.jpg",
+        "membershipLevel": 2,
+        "tagLine": "Smart Solutions",
+        "email": "contact@wittyinnovations.com.gh",
+        "description": "Innovative consulting and business solutions"
+    },
+    {
+        "id": 10,
+        "name": "7 Brothers Restaurant & Pub",
+        "address": "272X+CXP, Kpando",
+        "phone": "+233 (0) 536-473-388",
+        "website": "https://sevenbrothersgh.com",
+        "image": "7.jpg",
+        "membershipLevel": 1,
+        "tagLine": "Fine Dining & Entertainment",
+        "email": "jamesmikado001@gmail.com",
+        "description": "Premier restaurant and pub with quality food and service"
+    }
+]

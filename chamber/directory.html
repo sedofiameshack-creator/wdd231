@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Volta Chamber of Commerce - Promoting business growth and networking opportunities in Accra, Ghana.">
+    <meta name="author" content="Meshack Sedofia">
+    
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:title" content="Volta Chamber of Commerce">
+    <meta property="og:description" content="Connect with local businesses and discover membership opportunities with Accra Chamber of Commerce.">
+    <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/directory.html">
+    <meta property="og:type" content="website">
+    
+    <title>Directory - Volta Chamber of Commerce</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="images/volta.jpg" alt="Volta Chamber of Commerce Logo" class="logo">
+                <div class="header-text">
+                    <h1>Volta Chamber of Commerce</h1>
+                    <p class="tagline">Growing Business, Stronger Community</p>
+                </div>
+            </div>
+            <button id="menuBtn" class="menu-btn">☰ Menu</button>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar" class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Podcast</a></li>
+            <li><a href="#">Events</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="directory-section">
+            <h2>Business Directory</h2>
+            
+            <!-- View Toggle Buttons -->
+            <div class="view-toggle">
+                <button id="gridBtn" class="view-btn active" aria-label="Grid view">
+                    📋 Grid
+                </button>
+                <button id="listBtn" class="view-btn" aria-label="List view">
+                    ☰ List
+                </button>
+            </div>
+
+            <!-- Member Display Container -->
+            <div id="memberContainer" class="member-grid">
+                <!-- Members will be loaded here by JavaScript -->
+                <p class="loading">Loading businesses...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Volta Chamber of Commerce</h3>
+                <p>Ho Bankoe<br>
+                Volta, Ghana 00233<br>
+                <strong>Phone:</strong> +233 (0) 302-668-839<br>
+                <strong>Email:</strong> info@voltachamber.org</p>
+            </div>
+
+            <div class="footer-section social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Volta Chamber of Commerce</p>
+            <p class="developer-info">
+                <span class="developer-name">Meshack Sedofia</span> | 
+                WDD 231 | 
+                Last Modified: <span id="lastModified"></span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
