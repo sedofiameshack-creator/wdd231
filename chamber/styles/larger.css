@@ -102,6 +102,20 @@
         grid-template-columns: repeat(2, 1fr);
         gap: var(--spacing-xl);
     }
+
+    /* Hero */
+    .hero-image {
+        height: 360px;
+    }
+
+    .hero-overlay h1 {
+        font-size: 2rem;
+    }
+
+    /* Member Spotlights - 2 Columns */
+    .spotlight-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* ========================================
@@ -182,6 +196,24 @@
 
     .footer-bottom p:last-child {
         text-align: right;
+    }
+
+    /* Events - Side by Side */
+    .events-list {
+        flex-direction: row;
+    }
+
+    .event-card {
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .event-date {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: var(--spacing-xs);
     }
 }
 
@@ -304,6 +336,33 @@
 
     .developer-info {
         margin-top: 0;
+    }
+
+    /* Hero */
+    .hero-image {
+        height: 440px;
+    }
+
+    .hero-overlay {
+        padding: var(--spacing-xl);
+    }
+
+    .hero-overlay h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: var(--font-size-large);
+    }
+
+    /* Member Spotlights - 3 Columns */
+    .spotlight-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .spotlight-card {
+        flex-direction: column;
+        text-align: center;
     }
 }
 

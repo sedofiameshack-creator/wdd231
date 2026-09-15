@@ -410,6 +410,227 @@ main {
 }
 
 /* ========================================
+   HERO (HOME PAGE)
+   ======================================== */
+.hero {
+    position: relative;
+    margin-bottom: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.hero-overlay h1 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.hero-subtitle {
+    color: var(--white);
+    font-size: var(--font-size-base);
+    max-width: 40ch;
+    margin-bottom: 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--white);
+    font-weight: 600;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: var(--primary-color);
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   CURRENT EVENTS (HOME PAGE)
+   ======================================== */
+.events-section,
+.weather-section,
+.spotlights-section {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: var(--spacing-xl);
+}
+
+.events-section h2,
+.weather-section h2,
+.spotlights-section h2 {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.events-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.event-card {
+    display: flex;
+    gap: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+}
+
+.event-date {
+    flex-shrink: 0;
+    width: 60px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xs);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.event-month {
+    display: block;
+    font-size: var(--font-size-small);
+    font-weight: 600;
+}
+
+.event-day {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.event-info h3 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.event-info p {
+    margin-bottom: var(--spacing-xs);
+}
+
+.event-meta {
+    color: var(--text-light);
+    font-size: var(--font-size-small);
+}
+
+/* ========================================
+   WEATHER (HOME PAGE)
+   ======================================== */
+.weather-current {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-lg);
+}
+
+.current-temp {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+.current-desc {
+    text-transform: capitalize;
+    color: var(--text-light);
+    margin-bottom: 0;
+}
+
+.forecast-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.forecast-day {
+    text-align: center;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm);
+    min-width: 90px;
+}
+
+.forecast-label {
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+}
+
+.forecast-temp {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-xs);
+}
+
+.forecast-desc {
+    font-size: var(--font-size-small);
+    color: var(--text-light);
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+/* ========================================
+   MEMBER SPOTLIGHTS (HOME PAGE)
+   ======================================== */
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+}
+
+.spotlight-card {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md);
+}
+
+.spotlight-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+}
+
+.spotlight-content h3 {
+    margin-bottom: var(--spacing-xs);
+}
+
+.spotlight-content p {
+    margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-small);
+}
+
+/* ========================================
    FOOTER
    ======================================== */
 footer {
