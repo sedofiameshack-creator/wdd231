@@ -67,7 +67,7 @@
 
     nav a:hover,
     nav a.active {
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: #7a2015;
     }
 
     /* Main Content */
@@ -428,35 +428,6 @@
 
     main {
         padding: var(--spacing-md);
-    }
-}
-
-/* ========================================
-   DARK MODE SUPPORT (Optional)
-   ======================================== */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #1a1a1a;
-        --text-color: #ecf0f1;
-        --text-light: #bdc3c7;
-        --white: #2c3e50;
-        --border-color: #444;
-    }
-
-    body {
-        background-color: var(--bg-color);
-        color: var(--text-color);
-    }
-
-    .directory-section,
-    .member-card,
-    .member-list-item {
-        background-color: #2c3e50;
-        border-color: #444;
-    }
-
-    .member-list-item:hover {
-        background-color: rgba(52, 152, 219, 0.15);
     }
 }
 
