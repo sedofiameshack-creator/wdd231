@@ -550,3 +550,30 @@
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-color);
 }
+/* ========================================
+   JOIN PAGE - LARGER SCREENS
+   ======================================== */
+@media (min-width: 768px) {
+    /* Form on the left, membership cards on the right */
+    .join-layout {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .join-form {
+        flex: 2;
+    }
+
+    .membership-cards {
+        flex: 1;
+        grid-template-columns: 1fr;
+        position: sticky;
+        top: calc(var(--spacing-lg) + 70px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .membership-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

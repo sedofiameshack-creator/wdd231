@@ -734,3 +734,251 @@ footer {
         page-break-inside: avoid;
     }
 }
+/* ========================================
+   JOIN PAGE - FORM
+   ======================================== */
+.join-section {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.join-section h1 {
+    text-align: center;
+}
+
+.join-intro {
+    max-width: 65ch;
+    margin: 0 auto var(--spacing-lg);
+    text-align: center;
+    color: var(--text-light);
+}
+
+.join-layout {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.join-form fieldset {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.join-form legend {
+    font-weight: 600;
+    color: var(--primary-color);
+    padding: 0 var(--spacing-xs);
+    font-size: 1.1rem;
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    color: var(--text-color);
+    background-color: var(--white);
+}
+
+.join-form input:focus,
+.join-form select:focus,
+.join-form textarea:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+    border-color: var(--accent-color);
+}
+
+.join-form input:invalid:not(:placeholder-shown) {
+    border-color: var(--secondary-color);
+}
+
+.submit-btn {
+    background-color: var(--accent-color);
+    color: var(--white);
+    font-weight: 600;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: var(--font-size-base);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   JOIN PAGE - MEMBERSHIP CARDS
+   ======================================== */
+.membership-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+}
+
+.level-card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-md);
+    text-align: center;
+    background-color: var(--white);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.level-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.level-price {
+    color: var(--secondary-color);
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+}
+
+.modal-link {
+    background-color: transparent;
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xs) var(--spacing-md);
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modal-link:hover {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+
+/* Entrance animation for the 4 membership cards on initial load */
+.card-anim {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: cardFadeIn 0.6s ease forwards;
+    animation-delay: calc(var(--delay) * 0.15s);
+}
+
+@keyframes cardFadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================================
+   JOIN PAGE - MODALS
+   ======================================== */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md);
+}
+
+.modal-overlay.open {
+    display: flex;
+}
+
+.modal-box {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    max-width: 480px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.modal-box h2 {
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.modal-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.modal-box li {
+    padding-left: var(--spacing-md);
+    position: relative;
+}
+
+.modal-box li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--success-color);
+    font-weight: 700;
+}
+
+.modal-close {
+    position: absolute;
+    top: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background: none;
+    border: none;
+    font-size: 1.75rem;
+    line-height: 1;
+    cursor: pointer;
+    color: var(--text-light);
+}
+
+.modal-close:hover {
+    color: var(--secondary-color);
+}
+
+/* ========================================
+   THANK YOU PAGE
+   ======================================== */
+.thankyou-section {
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.submission-summary {
+    max-width: 50ch;
+    margin: var(--spacing-lg) auto;
+    text-align: left;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+}
+
+.submission-summary h2 {
+    margin-top: 0;
+    text-align: center;
+}
