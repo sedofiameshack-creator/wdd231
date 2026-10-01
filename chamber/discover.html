@@ -63,17 +63,17 @@
             <p class="discover-intro">From towering waterfalls to historic forts, explore eight places that make the Volta Region a great place to live, visit and do business.</p>
 
             <div class="discover-grid" id="discoverGrid">
-                <aside class="visit-message" id="visitMessage" role="status">
+                <div class="visit-message" id="visitMessage" role="status">
                     <p id="visitText"></p>
                     <button type="button" class="visit-close" id="visitClose" aria-label="Close message">&times;</button>
-                </aside>
+                </div>
                 <!-- Cards are built by scripts/discover.js from data/discover.mjs -->
             </div>
         </section>
         <dialog id="placeDialog" class="place-dialog" aria-labelledby="dialogTitle">
             <button type="button" class="dialog-close" id="dialogClose" aria-label="Close">&times;</button>
             <h2 id="dialogTitle"></h2>
-            <img id="dialogImage" src="" alt="" width="300" height="200">
+            <figure id="dialogFigure"></figure>
             <address id="dialogAddress"></address>
             <p id="dialogDescription"></p>
             <a id="dialogMap" class="dialog-map" href="#" target="_blank" rel="noopener">View on map</a>

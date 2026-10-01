@@ -67,9 +67,12 @@ function buildCards() {
 // ============================================
 function openDialog(place) {
     document.getElementById('dialogTitle').textContent = place.name;
-    const img = document.getElementById('dialogImage');
+    const img = document.createElement('img');
     img.src = place.image;
     img.alt = place.alt;
+    img.width = 300;
+    img.height = 200;
+    document.getElementById('dialogFigure').replaceChildren(img);
     document.getElementById('dialogAddress').textContent = place.address;
     document.getElementById('dialogDescription').textContent = place.description;
     document.getElementById('dialogMap').href =
