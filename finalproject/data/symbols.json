@@ -1,0 +1,132 @@
+{
+  "symbols": [
+    {
+      "id": "gye-nyame",
+      "name": "Gye Nyame",
+      "category": "Faith",
+      "meaning": "Except God. A symbol of the supremacy and power of God over all things.",
+      "proverb": "Except for God, I fear nothing.",
+      "usage": "One of the most widely used Adinkra symbols. It appears on walls, fabrics, jewellery, church buildings and business logos across Ghana."
+    },
+    {
+      "id": "sankofa",
+      "name": "Sankofa",
+      "category": "Wisdom",
+      "meaning": "Go back and get it. Learn from the past in order to build the future.",
+      "proverb": "It is not wrong to go back for that which you have forgotten.",
+      "usage": "Often drawn as a bird looking backward or as a heart-like spiral. It is used on cloth, in schools and in memorials to honour history."
+    },
+    {
+      "id": "dwennimmen",
+      "name": "Dwennimmen",
+      "category": "Strength",
+      "meaning": "Ram's horns. Strength joined with humility and wisdom.",
+      "proverb": "The ram may be strong, yet it still bows its head.",
+      "usage": "Chosen for gifts and designs that celebrate quiet strength. It also appears on cloth worn by leaders and elders."
+    },
+    {
+      "id": "adinkrahene",
+      "name": "Adinkrahene",
+      "category": "Leadership",
+      "meaning": "Chief of the Adinkra symbols. It stands for greatness, charisma and leadership.",
+      "proverb": "The chief of all symbols.",
+      "usage": "Its concentric circles are said to have inspired the design of several other symbols. It is popular on certificates and ceremonial cloth."
+    },
+    {
+      "id": "funtunfunefu-denkyemfunefu",
+      "name": "Funtunfunefu Denkyemfunefu",
+      "category": "Unity",
+      "meaning": "Siamese crocodiles. Democracy, unity in diversity and shared destiny.",
+      "proverb": "They share one stomach, yet they fight over food.",
+      "usage": "Used to remind communities that cooperation matters more than rivalry. It appears in civic buildings and on cloth for community events."
+    },
+    {
+      "id": "nyame-dua",
+      "name": "Nyame Dua",
+      "category": "Faith",
+      "meaning": "Tree of God. A sign of God's presence and protection.",
+      "proverb": "God's tree stands as an altar of protection.",
+      "usage": "Traditionally linked to the altar found in many compounds. It is used to invite blessing and safety into a home."
+    },
+    {
+      "id": "aya",
+      "name": "Aya",
+      "category": "Strength",
+      "meaning": "The fern. Endurance, resourcefulness and the courage to carry on.",
+      "proverb": "I am not afraid of you; I have endured hardship.",
+      "usage": "Often chosen by people who have come through hard times. It is also found on cloth given to mark perseverance."
+    },
+    {
+      "id": "akoma",
+      "name": "Akoma",
+      "category": "Love",
+      "meaning": "The heart. Patience, tolerance, love and goodwill.",
+      "proverb": "A patient heart brings peace.",
+      "usage": "A common choice for wedding cloth, greeting cards and gifts that express care for another person."
+    },
+    {
+      "id": "nkyinkyim",
+      "name": "Nkyinkyim",
+      "category": "Resilience",
+      "meaning": "Twisting. Initiative, dynamism and the ability to adapt to life's turns.",
+      "proverb": "Life's path twists, and the wise person twists with it.",
+      "usage": "Used on cloth and artwork that celebrates flexibility and a strong will to keep moving forward."
+    },
+    {
+      "id": "duafe",
+      "name": "Duafe",
+      "category": "Love",
+      "meaning": "The wooden comb. Beauty, care, cleanliness and feminine virtues.",
+      "proverb": "A well-kept person shows a well-kept heart.",
+      "usage": "Linked to grooming and womanhood. It appears on cloth and gifts for mothers, brides and daughters."
+    },
+    {
+      "id": "mate-masie",
+      "name": "Mate Masie",
+      "category": "Wisdom",
+      "meaning": "What I hear, I keep. Knowledge, prudence and careful listening.",
+      "proverb": "What I hear, I keep.",
+      "usage": "Used in settings of counsel and learning. It reminds people to listen well and to guard what they are told."
+    },
+    {
+      "id": "ese-ne-tekrema",
+      "name": "Ese Ne Tekrema",
+      "category": "Unity",
+      "meaning": "The teeth and the tongue. Friendship and interdependence, with room for disagreement.",
+      "proverb": "The teeth and the tongue work together, though sometimes the teeth bite the tongue.",
+      "usage": "Offered as a symbol of friendship that survives small quarrels. It is used on gifts between friends and colleagues."
+    },
+    {
+      "id": "nea-onnim-no-sua-a-ohu",
+      "name": "Nea Onnim No Sua A, Ohu",
+      "category": "Wisdom",
+      "meaning": "He who does not know can know from learning. Lifelong education and the search for knowledge.",
+      "proverb": "He who does not know can know from learning.",
+      "usage": "Often placed in schools, libraries and graduation materials to celebrate continuous learning."
+    },
+    {
+      "id": "bese-saka",
+      "name": "Bese Saka",
+      "category": "Community",
+      "meaning": "A bunch of cola nuts. Abundance, trade and the unity of people in commerce.",
+      "proverb": "Cola nuts gathered together are a sign of plenty.",
+      "usage": "Cola nuts have long been traded and shared as a sign of welcome. The symbol suits markets, cooperatives and business branding."
+    },
+    {
+      "id": "boa-me-na-me-mmoa-wo",
+      "name": "Boa Me Na Me Mmoa Wo",
+      "category": "Community",
+      "meaning": "Help me and let me help you. Cooperation and interdependence.",
+      "proverb": "Help me, and I will help you.",
+      "usage": "Used by groups, associations and teams to express shared effort and mutual support."
+    },
+    {
+      "id": "hye-won-hye",
+      "name": "Hye Won Hye",
+      "category": "Resilience",
+      "meaning": "That which does not burn. Imperishability, endurance and perseverance through hardship.",
+      "proverb": "That which cannot be burned.",
+      "usage": "Worn to express the ability to withstand trials. It is also used on memorials and in designs about lasting legacy."
+    }
+  ]
+}

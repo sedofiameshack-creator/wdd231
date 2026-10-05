@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adinkra Atlas | Wisdom in Every Symbol</title>
+  <meta name="description" content="Explore Ghanaian Adinkra symbols, their meanings and the proverbs behind them. Search the gallery and save your favorites.">
+  <meta name="author" content="Meshack Sedofia">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Adinkra Atlas | Wisdom in Every Symbol">
+  <meta property="og:description" content="A guide to Ghanaian Adinkra symbols, their meanings and the proverbs behind them.">
+  <meta property="og:url" content="https://sedofiameshack-creator.github.io/wdd231/final/index.html">
+  <meta property="og:image" content="https://sedofiameshack-creator.github.io/wdd231/final/images/og-image.png">
+  <meta property="og:image:alt" content="Adinkra Atlas logo text on a dark brown background with a gold circle motif">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module" src="scripts/home.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Adinkra Atlas</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="learn.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <h1>Wisdom in every symbol</h1>
+        <p>Adinkra symbols express proverbs and values in a single image. Discover what they mean and where they come from.</p>
+        <a class="btn" href="symbols.html">Explore Symbols</a>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="wrap">
+        <h2 id="featured-heading">Featured symbols</h2>
+        <div id="featured-grid" class="card-grid featured" aria-live="polite">
+          <p>Loading symbols&hellip;</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="learn-heading">
+      <div class="wrap learn-panel">
+        <h2 id="learn-heading">Learn about Adinkra</h2>
+        <p>Adinkra is a set of symbols created by the Akan people of Ghana. Each one carries a proverb, a value or a piece of history. They are stamped onto cloth, carved into wood and built into walls. Find out where they came from and how the cloth is made.</p>
+        <a class="btn" href="learn.html">Learn more</a>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="symbol-dialog" aria-labelledby="dialog-title"></dialog>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-brand">Adinkra Atlas</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="symbols.html#favorites">Favorites</a></li>
+          <li><a href="learn.html#contact">Contact</a></li>
+          <li><a href="attributions.html">Attributions</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">Video demonstration</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2026 Meshack Sedofia | WDD 231</p>
+    </div>
+  </footer>
+</body>
+</html>

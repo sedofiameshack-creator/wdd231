@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Attributions | Adinkra Atlas</title>
+  <meta name="description" content="Fonts, images and reference sources used to build the Adinkra Atlas website.">
+  <meta name="author" content="Meshack Sedofia">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Attributions | Adinkra Atlas">
+  <meta property="og:description" content="Credits for the fonts, images and references behind Adinkra Atlas.">
+  <meta property="og:url" content="https://sedofiameshack-creator.github.io/wdd231/final/attributions.html">
+  <meta property="og:image" content="https://sedofiameshack-creator.github.io/wdd231/final/images/og-image.png">
+  <meta property="og:image:alt" content="Adinkra Atlas logo text on a dark brown background with a gold circle motif">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module">
+    import { initNav } from "./scripts/nav.js";
+    initNav();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Adinkra Atlas</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="learn.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="wrap">
+        <h1>Attributions</h1>
+        <p>The fonts, images and references behind Adinkra Atlas.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="fonts-heading">
+      <div class="wrap prose">
+        <h2 id="fonts-heading">Fonts</h2>
+        <ul>
+          <li><a href="https://fonts.google.com/specimen/Playfair+Display">Playfair Display</a>, served by Google Fonts under the SIL Open Font License.</li>
+          <li><a href="https://fonts.google.com/specimen/Source+Sans+3">Source Sans 3</a>, served by Google Fonts under the SIL Open Font License.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="images-heading">
+      <div class="wrap prose">
+        <h2 id="images-heading">Images</h2>
+        <ul>
+          <li>The favicon, the cloth pattern illustration and the social sharing image were created for this project as original artwork.</li>
+          <li>The gold badge on each symbol card shows the first letter of the symbol&rsquo;s name. It is not an Adinkra symbol.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="content-heading">
+      <div class="wrap prose">
+        <h2 id="content-heading">Content and references</h2>
+        <p>The symbol names, meanings, proverbs and history on this site are written in my own words, based on the following published references.</p>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Adinkra_symbols">Adinkra symbols</a>, Wikipedia, for the overview of the symbols and their history.</li>
+          <li>Willis, W. Bruce. <cite>The Adinkra Dictionary: A Visual Primer on the Language of Adinkra</cite>. The Pyramid Complex, 1998, for symbol names and meanings.</li>
+        </ul>
+        <p><a class="btn" href="index.html">Back to Adinkra Atlas</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-brand">Adinkra Atlas</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="symbols.html#favorites">Favorites</a></li>
+          <li><a href="learn.html#contact">Contact</a></li>
+          <li><a href="attributions.html">Attributions</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">Video demonstration</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2026 Meshack Sedofia | WDD 231</p>
+    </div>
+  </footer>
+</body>
+</html>

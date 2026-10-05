@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn About Adinkra | Adinkra Atlas</title>
+  <meta name="description" content="Learn where Adinkra came from, how the stamped cloth is made, and how the symbols are used today. Send a question or suggest a symbol.">
+  <meta name="author" content="Meshack Sedofia">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learn About Adinkra | Adinkra Atlas">
+  <meta property="og:description" content="The history, making and cultural use of Adinkra symbols from Ghana.">
+  <meta property="og:url" content="https://sedofiameshack-creator.github.io/wdd231/final/learn.html">
+  <meta property="og:image" content="https://sedofiameshack-creator.github.io/wdd231/final/images/og-image.png">
+  <meta property="og:image:alt" content="Adinkra Atlas logo text on a dark brown background with a gold circle motif">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script type="module" src="scripts/learn.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Adinkra Atlas</a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html" aria-current="page">Learn</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <div class="wrap">
+        <h1>Learn about Adinkra</h1>
+        <p>The story, the making and the meaning of the symbols that carry Ghana&rsquo;s proverbs.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="history-heading">
+      <div class="wrap prose">
+        <h2 id="history-heading">Where Adinkra came from</h2>
+        <p>Adinkra symbols belong to the Akan people of Ghana and C&ocirc;te d&rsquo;Ivoire. According to oral tradition, the name comes from King Nana Kwadwo Agyemang Adinkra of Gyaman. After a conflict with the Asante, his designs were taken to Kumasi, where the Asante developed the art of stamping them onto cloth.</p>
+        <p>Each symbol stands for a proverb, a belief or a historical event. Because they work like a visual vocabulary, a person wearing Adinkra cloth can send a message without saying a word.</p>
+        <img class="cloth-image" src="images/cloth.svg" alt="A repeating pattern of gold circles and terracotta crosses on dark brown, inspired by stamped Adinkra cloth" width="640" height="360" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="making-heading">
+      <div class="wrap prose">
+        <h2 id="making-heading">How the cloth is made</h2>
+        <p>Traditional Adinkra cloth is made by hand. A stamp is carved from a piece of calabash gourd, with a handle added on the back. A dark dye made from tree bark is boiled until thick, and the stamp is dipped in it and pressed onto plain cotton cloth, one symbol at a time.</p>
+        <p>The cloth is often marked in a grid so that the rows stay straight. Ntonso, a town near Kumasi, is well known for this craft.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="use-heading">
+      <div class="wrap prose">
+        <h2 id="use-heading">How the symbols are used today</h2>
+        <p>Adinkra was once worn mainly at funerals and other important ceremonies, with dark cloth for mourning. Today the symbols are everywhere: on school crests, iron gates, jewellery, fashion, book covers and company logos.</p>
+        <p>When choosing a symbol for a gift or a design, read its proverb first. Browse the <a href="symbols.html">symbols gallery</a> and filter by categories such as unity, strength or wisdom.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt" aria-labelledby="contact-heading">
+      <div class="wrap prose">
+        <h2 id="contact-heading">Contact us</h2>
+        <p>Have a question about a symbol, or want to suggest one to add? Send a message below.</p>
+        <form action="thanks.html" method="get">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required minlength="2">
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic" required>
+              <option value="">Choose a topic</option>
+              <option value="Question about a symbol">Question about a symbol</option>
+              <option value="Symbol suggestion">Symbol suggestion</option>
+              <option value="Feedback on the site">Feedback on the site</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="symbol">Symbol name (optional)</label>
+            <input type="text" id="symbol" name="symbol">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required minlength="10" maxlength="500"></textarea>
+          </div>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-brand">Adinkra Atlas</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="symbols.html">Symbols</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="symbols.html#favorites">Favorites</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="attributions.html">Attributions</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">Video demonstration</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; 2026 Meshack Sedofia | WDD 231</p>
+    </div>
+  </footer>
+</body>
+</html>
