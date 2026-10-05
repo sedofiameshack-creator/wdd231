@@ -1,0 +1,7 @@
+/* Adinkra Atlas - wide-screen styles (48em and up). Linked with a media attribute. */
+.nav-toggle { display: none; }
+.primary-nav { display: block; flex-basis: auto; }
+.primary-nav ul { flex-direction: row; gap: 1.5rem; padding: 0; }
+.controls { grid-template-columns: 2fr 1fr auto; align-items: end; }
+.featured { grid-template-columns: repeat(3, 1fr); }
+.hero { padding-block: 6rem; }
